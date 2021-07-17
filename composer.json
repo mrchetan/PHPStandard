@@ -12,5 +12,6 @@
             "name": "Chetan",
             "email": "contact@mrchetan.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
 }
