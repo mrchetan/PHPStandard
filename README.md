@@ -39,5 +39,14 @@ For Windows
 
 	"phpSniffer.standard": "%userprofile%/AppData/Roaming/Composer/vendor/mrchetan/php_standard/ruleset.xml",
 
+![N|Solid](./img/vs-settings-1.png)
 
-  ![N|Solid](./img/vs-settings-1.png)
+
+
+To check 
+
+	phpcs --standard=<PATH_OF_RULESET> <SPACE> <PATH_OF_FILEs_CHECK>
+
+TO fix
+
+	phpcbf --standard=<PATH_OF_RULESET> <SPACE> <PATH_OF_FILEs_CHECK>
