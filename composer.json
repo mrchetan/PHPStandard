@@ -6,5 +6,11 @@
         "squizlabs/php_codesniffer": "^3.5",
         "phpmd/phpmd": "^2.8"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chetan",
+            "email": "contact@mrchetan.com"
+        }
+    ]
 }
