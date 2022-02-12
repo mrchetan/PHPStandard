@@ -66,6 +66,7 @@
                 <element value="T_COMMENT"/>
                 <element value="T_DOC_COMMENT_OPEN_TAG"/>
             </property>
+            <property name="indent" value="4"/>
         </properties>
     </rule>
     <rule ref="Generic.WhiteSpace.DisallowTabIndent"/>
