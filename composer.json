@@ -3,8 +3,8 @@
     "description": "PHP coding standard to be followed",
     "type": "php-code-sniffer",
     "require": {
-        "squizlabs/php_codesniffer": "^3.6",
-        "phpmd/phpmd": "^2.11"
+        "squizlabs/php_codesniffer": "^4.0",
+        "phpmd/phpmd": "^3.*"
     },
     "license": "MIT",
     "authors": [
