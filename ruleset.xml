@@ -66,7 +66,12 @@
                 <element value="T_COMMENT"/>
                 <element value="T_DOC_COMMENT_OPEN_TAG"/>
             </property>
-            <property name="indent" value="4"/>
+            <property name="indent" type="integer">4</property>
+            <property name="exact" type="boolean">true</property>
+            <property name="switchIndent" type="integer">4</property>
+            <property name="caseIndent" type="integer">4</property>
+            <property name="caseIndentSwitchBreak" type="integer">4</property>
+            <property name="indentNextLine" type="integer">4</property>
         </properties>
     </rule>
     <rule ref="Generic.WhiteSpace.DisallowTabIndent"/>
