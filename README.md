@@ -16,7 +16,6 @@ The project will be installed in global composer folder on your PC.
 
 You follow the steps respective to your favourite IDE to configure PHP CodeSniffer and PHP MessDetector and point to the two rulesets in the installation folder.
 * **ruleset.xml** - For CodeSniffer
-* **rulesetmd.xml** - For MessDetector
 
 ## Attribution
 Some sniffs in this repository have been derived from original PHP_CodeSniffer project. Credits for those go to the respective developers.
