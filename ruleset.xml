@@ -127,7 +127,7 @@
 
     <!-- When instantiating a new class, parentheses MUST always be present even when there are no arguments passed to the constructor. -->
     <!-- checked by PSR12.Classes.ClassInstantiation -->
-    <rule ref="PSR12.Classes.ClassInstantiation"/>  
+    <!-- <rule ref="PSR12.Classes.ClassInstantiation"> -->
 
     <!-- 4.1 Extends and Implements -->
 
@@ -400,6 +400,7 @@
     <rule ref="PEAR.Formatting.MultiLineAssignment"/>
     <rule ref="PEAR.WhiteSpace.ObjectOperatorIndent"/>
     <rule ref="PSR2.Namespaces.UseDeclaration"/>
+    <rule ref="Squiz.NamingConventions.ValidVariableName"/>
     <rule ref="Squiz.PHP.InnerFunctions"/>
     <rule ref="Squiz.PHP.NonExecutableCode"/>
     <rule ref="Squiz.Scope.MemberVarScope"/>
