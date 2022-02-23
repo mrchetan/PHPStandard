@@ -145,7 +145,7 @@
     <!-- When the class has nothing after the use import statement, the class closing brace MUST be on the next line after the use import statement. Otherwise, it MUST have a blank line after the use import statement. -->
     <!-- When using the insteadof and as operators they must be used as follows taking note of indentation, spacing, and new lines. -->
     <!-- checked by PSR12.Traits.UseDeclaration -->
-    <rule ref="PSR12.Traits.UseDeclaration"/>
+    <!-- <rule ref="PSR12.Traits.UseDeclaration"/> -->
 
     <!-- 4.3 Properties and Constants -->
 
@@ -405,7 +405,7 @@
     <rule ref="Squiz.PHP.NonExecutableCode"/>
     <rule ref="Squiz.Scope.MemberVarScope"/>
     <rule ref="Squiz.Scope.StaticThisUsage"/>
-    <rule ref="Squiz.Strings.DoubleQuoteUsage"/>
+    <rule ref="Squiz.Strings.DoubleQuoteUsage.NotRequired" />
     <rule ref="Squiz.WhiteSpace.FunctionSpacing" >
         <properties>
             <property name="spacing" value="1" />
@@ -419,7 +419,6 @@
     <rule ref="Squiz.WhiteSpace.PropertyLabelSpacing"/>
     <rule ref="Squiz.WhiteSpace.SemicolonSpacing"/>
     <rule ref="./Sniffs/Usage/UnusedFunctionVariableSniff.php" />
-    <rule ref="./Sniffs/Comments/CommentsSniff.php" />
 
     <exclude-pattern>*.blade.php</exclude-pattern>
 </ruleset>
