@@ -8,7 +8,7 @@ composer global require squizlabs/php_codesniffer:dev-master
 ```
 
 ``` sh
-composer global require mrchetan/php_standard:dev-main
+composer global require mrchetan/php_standard
 ```
 
 Always use the latest version of the repository.
