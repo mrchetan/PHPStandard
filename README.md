@@ -2,9 +2,14 @@
 This repository contains rulesets for **PHP CodeSniffer** and **PHP Mess Detector** along with some custom rules.
 
 ## Installation
-Install this repository globally using composer:
+Install this repository globally using following composer commands:
+``` sh
+composer global require squizlabs/php_codesniffer:dev-master
+```
 
-	composer global require mrchetan/php_standard
+``` sh
+composer global require mrchetan/php_standard:dev-main
+```
 
 Always use the latest version of the repository.
 
