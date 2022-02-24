@@ -2,7 +2,7 @@
     "name": "mrchetan/php_standard",
     "description": "PHP coding standard to be followed",
     "type": "php-code-sniffer",
-    "version": "2.3.1",
+    "version": "2.3.2",
     "require": {
         "squizlabs/php_codesniffer": "dev-master"
     },
