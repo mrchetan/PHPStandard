@@ -406,7 +406,7 @@
     <rule ref="Squiz.Scope.MemberVarScope"/>
     <rule ref="Squiz.Scope.StaticThisUsage"/>
     <rule ref="Squiz.Strings.DoubleQuoteUsage" />
-    <rule ule ref="Squiz.Strings.DoubleQuoteUsage.ContainsVar">
+    <rule ref="Squiz.Strings.DoubleQuoteUsage.ContainsVar">
         <severity>0</severity>
     </rule>
     <rule ref="Squiz.WhiteSpace.FunctionSpacing" >
