@@ -50,6 +50,10 @@ For Windows
 To check 
 
 	phpcs --standard=<PATH_OF_RULESET> <SPACE> <PATH_OF_FILEs_CHECK>
+	
+For Example 
+
+	phpcs --standard=~/.composer/vendor/mrchetan/php_standard/ruleset.xml index.php
 
 TO fix
 
