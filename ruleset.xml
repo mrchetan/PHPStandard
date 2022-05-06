@@ -400,7 +400,9 @@
     <rule ref="PEAR.Formatting.MultiLineAssignment"/>
     <rule ref="PEAR.WhiteSpace.ObjectOperatorIndent"/>
     <rule ref="PSR2.Namespaces.UseDeclaration"/>
-    <rule ref="Squiz.NamingConventions.ValidVariableName"/>
+    <rule ref="Squiz.NamingConventions.ValidVariableName">
+        <exclude name="Squiz.NamingConventions.ValidVariableName.MemberNotCamelCaps"/>
+    </rule>
     <rule ref="Squiz.PHP.InnerFunctions"/>
     <rule ref="Squiz.PHP.NonExecutableCode"/>
     <rule ref="Squiz.Scope.MemberVarScope"/>
