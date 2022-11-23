@@ -399,7 +399,9 @@
     <rule ref="PEAR.Commenting.InlineComment"/>
     <rule ref="PEAR.Formatting.MultiLineAssignment"/>
     <rule ref="PEAR.WhiteSpace.ObjectOperatorIndent"/>
-    <rule ref="PSR2.Namespaces.UseDeclaration"/>
+    <rule ref="PSR2.Namespaces.UseDeclaration">
+        <exclude name="PSR2.Namespaces.UseDeclaration.MultipleDeclarations"/>
+    </rule>
     <rule ref="Squiz.NamingConventions.ValidVariableName">
         <exclude name="Squiz.NamingConventions.ValidVariableName.MemberNotCamelCaps"/>
         <exclude name="Squiz.NamingConventions.ValidVariableName.PrivateNoUnderscore" />
