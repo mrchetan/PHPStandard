@@ -43,9 +43,6 @@ For Windows
 
 	"phpSniffer.standard": "%userprofile%/AppData/Roaming/Composer/vendor/mrchetan/php_standard/ruleset.xml",
 
-![N|Solid](./img/vs-settings-1.png)
-
-
 
 To check 
 
