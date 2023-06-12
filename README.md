@@ -3,9 +3,6 @@ This repository contains rulesets for **PHP CodeSniffer** and **PHP Mess Detecto
 
 ## Installation
 Install this repository globally using following composer commands:
-``` sh
-composer global require squizlabs/php_codesniffer:dev-master
-```
 
 ``` sh
 composer global require mrchetan/php_standard
@@ -14,7 +11,7 @@ composer global require mrchetan/php_standard
 Always use the latest version of the repository.
 
 ## Setup
-The project will be installed in global composer folder on your PC. 
+The project will be installed in global composer folder on your PC.
 * **Mac**: `.composer/vendor` folder in your home directory
 * **Windows**: `AppData/Roaming/Composer/vendor` folder in your user directory
 * **Ubuntu**: `.config/composer/vendor` folder in your home directory
@@ -44,11 +41,11 @@ For Windows
 	"phpSniffer.standard": "%userprofile%/AppData/Roaming/Composer/vendor/mrchetan/php_standard/ruleset.xml",
 
 
-To check 
+To check
 
 	phpcs --standard=<PATH_OF_RULESET> <SPACE> <PATH_OF_FILEs_CHECK>
-	
-For Example 
+
+For Example
 
 	phpcs --standard=~/.composer/vendor/mrchetan/php_standard/ruleset.xml index.php
 
