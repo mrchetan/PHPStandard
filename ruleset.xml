@@ -114,9 +114,6 @@
     <rule ref="Squiz.Commenting.BlockComment">
         <exclude name="Squiz.Commenting.BlockComment.FirstLineIndent"/>
         <exclude name="Squiz.Commenting.BlockComment.LineIndent"/>
-        <properties>
-            <property name="tabWidth" value="4"/>
-        </properties>
     </rule>
     <rule ref="Squiz.Commenting.ClassComment">
         <exclude name="Squiz.Commenting.ClassComment.Missing" />
@@ -240,13 +237,7 @@
 
     <!-- PSR2 -->
     <rule ref="PSR2.Files.ClosingTag"/>
-    <rule ref="PSR2.Files.EndFileNewline">
-        <properties>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
-        </properties>
-    </rule>
+    <rule ref="PSR2.Files.EndFileNewline"/>
 
     <!-- PSR12 -->
     <rule ref="PSR12.Files.DeclareStatement"/>
