@@ -140,6 +140,7 @@
     <rule ref="Squiz.Commenting.VariableComment">
         <exclude name="Squiz.Commenting.VariableComment.IncorrectVarType"/>
         <exclude name="Squiz.Commenting.VariableComment.TagNotAllowed"/>
+        <exclude name="Squiz.Commenting.VariableComment.Missing"/>
     </rule>
 
     <!--
@@ -490,6 +491,10 @@
             <property name="forbiddenFunctions" type="array">
                 <element key="sizeof" value="count"/>
                 <element key="delete" value="unset"/>
+                <element key="dd" value="null"/>
+                <element key="dump" value="null"/>
+                <element key="var_dump" value="null"/>
+                <element key="ray" value="null"/>
             </property>
             <property name="error" value="true"/>
         </properties>
