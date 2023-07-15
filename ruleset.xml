@@ -180,9 +180,6 @@
     </rule>
 
     <!-- Generic -->
-    <rule ref="Generic.ControlStructures.DisallowYodaConditions">
-        <type>warning</type>
-    </rule>
     <rule ref="Generic.ControlStructures.InlineControlStructure">
         <properties>
             <property name="error" value="true"/>
