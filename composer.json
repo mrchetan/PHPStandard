@@ -3,7 +3,7 @@
     "description": "PHP coding standard to be followed",
     "type": "php-code-sniffer",
     "require": {
-        "squizlabs/php_codesniffer": "^3.7.2"
+        "squizlabs/php_codesniffer": "^3.7"
     },
     "license": "MIT",
     "authors": [
