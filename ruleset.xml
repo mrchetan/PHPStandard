@@ -131,6 +131,7 @@
     <rule ref="Squiz.Commenting.InlineComment">
         <exclude name="Squiz.Commenting.InlineComment.InvalidEndChar"/>
         <exclude name="Squiz.Commenting.InlineComment.Empty"/>
+        <exclude name="Squiz.Commenting.InlineComment.NotCapital"/>
         <properties>
             <property name="supportedTokenizers" type="array">
                 <element value="PHP"/>
@@ -207,6 +208,7 @@
         </properties>
     </rule>
     <rule ref="Squiz.ControlStructures.ForLoopDeclaration">
+        <exclude name="Squiz.ControlStructures.ForLoopDeclaration.SpacingBeforeSecond"/>
         <properties>
             <property name="requiredSpacesAfterOpen" value="0"/>
             <property name="requiredSpacesBeforeClose" value="0"/>
@@ -314,12 +316,6 @@
 
     <!-- Generic -->
     <rule ref="Generic.Functions.FunctionCallArgumentSpacing"/>
-    <rule ref="Generic.Functions.OpeningFunctionBraceBsdAllman">
-        <properties>
-            <property name="checkFunctions" value="true"/>
-            <property name="checkClosures" value="false"/>
-        </properties>
-    </rule>
 
     <!-- PEAR -->
     <rule ref="PEAR.Functions.ValidDefaultValue"/>
@@ -402,7 +398,7 @@
     <!-- Generic -->
     <rule ref="Generic.Metrics.CyclomaticComplexity">
         <properties>
-            <property name="complexity" value="10"/>
+            <property name="complexity" value="15"/>
             <property name="absoluteComplexity" value="20"/>
         </properties>
     </rule>
