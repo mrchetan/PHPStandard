@@ -84,16 +84,6 @@
         ***********************************************************************
     -->
     <!-- Generic -->
-    <rule ref="Generic.Commenting.DocComment">
-        <exclude name="Generic.Commenting.DocComment.MissingShort"/>
-        <exclude name="Generic.Commenting.DocComment.NonParamGroup"/>
-        <exclude name="Generic.Commenting.DocComment.TagValueIndent"/>
-        <properties>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
-        </properties>
-    </rule>
     <rule ref="Generic.Commenting.Fixme">
         <type>warning</type>
         <properties>
