@@ -48,7 +48,10 @@
     <rule ref="PSR12.Classes.ClosingBrace"/>
 
     <!-- Squiz -->
-    <rule ref="Squiz.Classes.ClassDeclaration"/>
+    <rule ref="Squiz.Classes.ClassDeclaration">
+        <exclude name="Squiz.Classes.ClassDeclaration.OpenBraceNewLine"/>
+        <exclude name="Squiz.Classes.ClassDeclaration.CloseBraceSameLine"/>
+    </rule>
     <rule ref="Squiz.Classes.ClassFileName"/>
     <rule ref="Squiz.Classes.LowercaseClassKeywords"/>
     <rule ref="Squiz.Classes.SelfMemberReference"/>
@@ -61,23 +64,14 @@
     -->
 
     <!-- Generic -->
-    <rule ref="Generic.CodeAnalysis.AssignmentInCondition"/>
     <rule ref="Generic.CodeAnalysis.EmptyPHPStatement"/>
     <rule ref="Generic.CodeAnalysis.EmptyStatement">
         <exclude name="Generic.CodeAnalysis.EmptyStatement.DetectedCatch"/>
     </rule>
     <rule ref="Generic.CodeAnalysis.ForLoopShouldBeWhileLoop"/>
-    <rule ref="Generic.CodeAnalysis.ForLoopWithTestFunctionCall"/>
     <rule ref="Generic.CodeAnalysis.JumbledIncrementer"/>
     <rule ref="Generic.CodeAnalysis.UnconditionalIfStatement"/>
     <rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier"/>
-    <rule ref="Generic.CodeAnalysis.UnusedFunctionParameter">
-        <properties>
-            <property name="ignoreTypeHints" type="array">
-                <element value="InputInterface"/>
-            </property>
-        </properties>
-    </rule>
     <rule ref="Generic.CodeAnalysis.UselessOverridingMethod"/>
 
     <!--
@@ -188,13 +182,6 @@
             <property name="supportedTokenizers" type="array">
                 <element value="PHP"/>
             </property>
-        </properties>
-    </rule>
-    <rule ref="Generic.Files.LineLength">
-        <properties>
-            <property name="ignoreComments" value="true" />
-            <property name="lineLimit" value="120"/>
-            <property name="absoluteLineLimit" value="0"/>
         </properties>
     </rule>
 
@@ -608,7 +595,9 @@
             <property name="ignoreSpacingBeforeAssignments" value="true" />
         </properties>
     </rule>
-    <rule ref="Squiz.WhiteSpace.ScopeClosingBrace"/>
+    <rule ref="Squiz.WhiteSpace.ScopeClosingBrace">
+        <exclude name="Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore"/>
+    </rule>
     <rule ref="Squiz.WhiteSpace.ScopeKeywordSpacing"/>
     <rule ref="Squiz.WhiteSpace.SemicolonSpacing">
         <properties>
