@@ -552,6 +552,7 @@
     <!-- Squiz -->
     <rule ref="Squiz.WhiteSpace.CastSpacing"/>
     <rule ref="Squiz.WhiteSpace.ControlStructureSpacing">
+        <exclude name="Squiz.WhiteSpace.ControlStructureSpacing.SpacingAfterOpenBrace"/>
         <properties>
             <property name="supportedTokenizers" type="array">
                 <element value="PHP"/>
