@@ -271,6 +271,7 @@
     <rule ref="Squiz.Functions.LowercaseFunctionKeywords"/>
     <rule ref="Squiz.Functions.MultiLineFunctionDeclaration">
         <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.NewlineBeforeOpenBrace"/>
+        <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
         <properties>
             <property name="supportedTokenizers" type="array">
                 <element value="PHP"/>
