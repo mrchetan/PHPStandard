@@ -211,6 +211,7 @@
         </properties>
     </rule>
     <rule ref="Generic.Formatting.SpaceAfterNot">
+        <exclude name="Generic.Formatting.SpaceAfterNot.Incorrect"/>
         <properties>
             <property name="supportedTokenizers" type="array">
                 <element value="PHP"/>
