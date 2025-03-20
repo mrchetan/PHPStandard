@@ -321,12 +321,6 @@
     -->
 
     <!-- Generic -->
-    <rule ref="Generic.Metrics.CyclomaticComplexity">
-        <properties>
-            <property name="complexity" value="15"/>
-            <property name="absoluteComplexity" value="20"/>
-        </properties>
-    </rule>
     <rule ref="Generic.Metrics.NestingLevel">
         <properties>
             <property name="nestingLevel" value="5"/>
