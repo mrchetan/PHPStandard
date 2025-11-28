@@ -2,7 +2,7 @@
 <ruleset name="mr-chetan-ruleset" namespace="MrChetan\Standard">
 
     <!-- PSR1 Rule set -->
-    <rule ref="PSR1"/>
+    <rule ref="PSR1" />
 
     <!--
         ***********************************************************************
@@ -13,22 +13,22 @@
     <!-- Generic -->
     <rule ref="Generic.Arrays.ArrayIndent">
         <properties>
-            <property name="indent" value="4"/>
+            <property name="indent" value="4" />
         </properties>
     </rule>
-    <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax" />
 
     <!-- Squiz -->
-    <rule ref="Squiz.Arrays.ArrayBracketSpacing"/>
+    <rule ref="Squiz.Arrays.ArrayBracketSpacing" />
     <rule ref="Squiz.Arrays.ArrayDeclaration">
-        <exclude name="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned"/>
-        <exclude name="Squiz.Arrays.ArrayDeclaration.DoubleArrowNotAligned"/>
-        <exclude name="Squiz.Arrays.ArrayDeclaration.KeyNotAligned"/>
-        <exclude name="Squiz.Arrays.ArrayDeclaration.ValueNotAligned"/>
-        <exclude name="Squiz.Arrays.ArrayDeclaration.MultiLineNotAllowed"/>
-        <exclude name="Squiz.Arrays.ArrayDeclaration.SingleLineNotAllowed"/>
-        <exclude name="Squiz.Arrays.ArrayDeclaration.KeySpecified"/>
-        <exclude name="Squiz.Arrays.ArrayDeclaration.NoKeySpecified"/>
+        <exclude name="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned" />
+        <exclude name="Squiz.Arrays.ArrayDeclaration.DoubleArrowNotAligned" />
+        <exclude name="Squiz.Arrays.ArrayDeclaration.KeyNotAligned" />
+        <exclude name="Squiz.Arrays.ArrayDeclaration.ValueNotAligned" />
+        <exclude name="Squiz.Arrays.ArrayDeclaration.MultiLineNotAllowed" />
+        <exclude name="Squiz.Arrays.ArrayDeclaration.SingleLineNotAllowed" />
+        <exclude name="Squiz.Arrays.ArrayDeclaration.KeySpecified" />
+        <exclude name="Squiz.Arrays.ArrayDeclaration.NoKeySpecified" />
     </rule>
 
     <!--
@@ -38,24 +38,24 @@
     -->
 
     <!-- PSR2 -->
-    <rule ref="PSR2.Classes.PropertyDeclaration"/>
+    <rule ref="PSR2.Classes.PropertyDeclaration" />
     <rule ref="PSR2.Classes.PropertyDeclaration.Underscore">
         <type>error</type>
     </rule>
 
     <!-- PSR12 -->
-    <rule ref="PSR12.Classes.AnonClassDeclaration"/>
-    <rule ref="PSR12.Classes.ClosingBrace"/>
+    <rule ref="PSR12.Classes.AnonClassDeclaration" />
+    <rule ref="PSR12.Classes.ClosingBrace" />
 
     <!-- Squiz -->
     <rule ref="Squiz.Classes.ClassDeclaration">
-        <exclude name="Squiz.Classes.ClassDeclaration.OpenBraceNewLine"/>
-        <exclude name="Squiz.Classes.ClassDeclaration.CloseBraceSameLine"/>
+        <exclude name="Squiz.Classes.ClassDeclaration.OpenBraceNewLine" />
+        <exclude name="Squiz.Classes.ClassDeclaration.CloseBraceSameLine" />
     </rule>
-    <rule ref="Squiz.Classes.ClassFileName"/>
-    <rule ref="Squiz.Classes.LowercaseClassKeywords"/>
-    <rule ref="Squiz.Classes.SelfMemberReference"/>
-    <rule ref="Squiz.Classes.ValidClassName"/>
+    <rule ref="Squiz.Classes.ClassFileName" />
+    <rule ref="Squiz.Classes.LowercaseClassKeywords" />
+    <rule ref="Squiz.Classes.SelfMemberReference" />
+    <rule ref="Squiz.Classes.ValidClassName" />
 
     <!--
         ***********************************************************************
@@ -64,15 +64,15 @@
     -->
 
     <!-- Generic -->
-    <rule ref="Generic.CodeAnalysis.EmptyPHPStatement"/>
+    <rule ref="Generic.CodeAnalysis.EmptyPHPStatement" />
     <rule ref="Generic.CodeAnalysis.EmptyStatement">
-        <exclude name="Generic.CodeAnalysis.EmptyStatement.DetectedCatch"/>
+        <exclude name="Generic.CodeAnalysis.EmptyStatement.DetectedCatch" />
     </rule>
-    <rule ref="Generic.CodeAnalysis.ForLoopShouldBeWhileLoop"/>
-    <rule ref="Generic.CodeAnalysis.JumbledIncrementer"/>
-    <rule ref="Generic.CodeAnalysis.UnconditionalIfStatement"/>
-    <rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier"/>
-    <rule ref="Generic.CodeAnalysis.UselessOverridingMethod"/>
+    <rule ref="Generic.CodeAnalysis.ForLoopShouldBeWhileLoop" />
+    <rule ref="Generic.CodeAnalysis.JumbledIncrementer" />
+    <rule ref="Generic.CodeAnalysis.UnconditionalIfStatement" />
+    <rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier" />
+    <rule ref="Generic.CodeAnalysis.UselessOverridingMethod" />
 
     <!--
         ***********************************************************************
@@ -82,80 +82,68 @@
 
     <!-- PSR2 -->
     <rule ref="PSR2.ControlStructures.ControlStructureSpacing">
-        <exclude name="PSR2.ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace"/>
+        <exclude name="PSR2.ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace" />
         <properties>
-            <property name="requiredSpacesAfterOpen" value="0"/>
-            <property name="requiredSpacesBeforeClose" value="0"/>
+            <property name="requiredSpacesAfterOpen" value="0" />
+            <property name="requiredSpacesBeforeClose" value="0" />
         </properties>
     </rule>
-    <rule ref="PSR2.ControlStructures.ElseIfDeclaration"/>
+    <rule ref="PSR2.ControlStructures.ElseIfDeclaration" />
     <rule ref="PSR2.ControlStructures.SwitchDeclaration">
         <properties>
-            <property name="indent" value="4"/>
+            <property name="indent" value="4" />
         </properties>
     </rule>
 
     <!-- PSR12 -->
     <rule ref="PSR12.ControlStructures.BooleanOperatorPlacement">
         <properties>
-            <property name="allowOnly" value=""/>
+            <property name="allowOnly" value="" />
         </properties>
     </rule>
     <rule ref="PSR12.ControlStructures.ControlStructureSpacing">
-        <exclude name="PSR12.ControlStructures.ControlStructureSpacing.FirstExpressionLine"/>
-        <exclude name="PSR12.ControlStructures.ControlStructureSpacing.CloseParenthesisLine"/>
-        <exclude name="PSR12.ControlStructures.ControlStructureSpacing.LineIndent"/>
+        <exclude name="PSR12.ControlStructures.ControlStructureSpacing.FirstExpressionLine" />
+        <exclude name="PSR12.ControlStructures.ControlStructureSpacing.CloseParenthesisLine" />
+        <exclude name="PSR12.ControlStructures.ControlStructureSpacing.LineIndent" />
         <properties>
-            <property name="indent" value="4"/>
+            <property name="indent" value="4" />
         </properties>
     </rule>
 
     <!-- Generic -->
     <rule ref="Generic.ControlStructures.InlineControlStructure">
         <properties>
-            <property name="error" value="true"/>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
+            <property name="error" value="true" />
         </properties>
     </rule>
 
     <!-- Squiz -->
     <rule ref="Squiz.ControlStructures.ControlSignature">
         <properties>
-            <property name="requiredSpacesBeforeColon" value="1"/>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
+            <property name="requiredSpacesBeforeColon" value="1" />
         </properties>
     </rule>
     <rule ref="Squiz.ControlStructures.ForEachLoopDeclaration">
         <!-- exclude this message as it is already checked in Generic.PHP.LowerCaseKeyword -->
-        <exclude name="Squiz.ControlStructures.ForEachLoopDeclaration.AsNotLower"/>
+        <exclude name="Squiz.ControlStructures.ForEachLoopDeclaration.AsNotLower" />
         <properties>
-            <property name="requiredSpacesAfterOpen" value="0"/>
-            <property name="requiredSpacesBeforeClose" value="0"/>
+            <property name="requiredSpacesAfterOpen" value="0" />
+            <property name="requiredSpacesBeforeClose" value="0" />
         </properties>
     </rule>
     <rule ref="Squiz.ControlStructures.ForLoopDeclaration">
-        <exclude name="Squiz.ControlStructures.ForLoopDeclaration.SpacingBeforeSecond"/>
+        <exclude name="Squiz.ControlStructures.ForLoopDeclaration.SpacingBeforeSecond" />
         <properties>
-            <property name="requiredSpacesAfterOpen" value="0"/>
-            <property name="requiredSpacesBeforeClose" value="0"/>
-            <property name="ignoreNewlines" value="false"/>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
+            <property name="requiredSpacesAfterOpen" value="0" />
+            <property name="requiredSpacesBeforeClose" value="0" />
+            <property name="ignoreNewlines" value="false" />
         </properties>
     </rule>
-    <rule ref="Squiz.ControlStructures.LowercaseDeclaration"/>
+    <rule ref="Squiz.ControlStructures.LowercaseDeclaration" />
     <rule ref="Squiz.ControlStructures.SwitchDeclaration">
-        <exclude name="Squiz.ControlStructures.SwitchDeclaration.BreakIndent"/>
+        <exclude name="Squiz.ControlStructures.SwitchDeclaration.BreakIndent" />
         <properties>
-            <property name="indent" value="4"/>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
+            <property name="indent" value="4" />
         </properties>
     </rule>
 
@@ -166,22 +154,19 @@
     -->
 
     <!-- PSR2 -->
-    <rule ref="PSR2.Files.ClosingTag"/>
-    <rule ref="PSR2.Files.EndFileNewline"/>
+    <rule ref="PSR2.Files.ClosingTag" />
+    <rule ref="PSR2.Files.EndFileNewline" />
 
     <!-- PSR12 -->
-    <rule ref="PSR12.Files.DeclareStatement"/>
-    <rule ref="PSR12.Files.FileHeader"/>
-    <rule ref="PSR12.Files.ImportStatement"/>
+    <rule ref="PSR12.Files.DeclareStatement" />
+    <rule ref="PSR12.Files.FileHeader" />
+    <rule ref="PSR12.Files.ImportStatement" />
 
     <!-- Generic -->
-    <rule ref="Generic.Files.ByteOrderMark"/>
+    <rule ref="Generic.Files.ByteOrderMark" />
     <rule ref="Generic.Files.LineEndings">
         <properties>
-            <property name="eolChar" value="\n"/>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
+            <property name="eolChar" value="\n" />
         </properties>
     </rule>
 
@@ -192,39 +177,33 @@
     -->
 
     <!-- Generic -->
-    <rule ref="Generic.Formatting.DisallowMultipleStatements"/>
+    <rule ref="Generic.Formatting.DisallowMultipleStatements" />
     <rule ref="Generic.Formatting.MultipleStatementAlignment">
-        <exclude name="Generic.Formatting.MultipleStatementAlignment.NotSame"/>
+        <exclude name="Generic.Formatting.MultipleStatementAlignment.NotSame" />
         <properties>
-            <property name="maxPadding" value="12"/>
-            <property name="error" value="true"/>
-            <property name="alignAtEnd" value="true"/>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
+            <property name="maxPadding" value="12" />
+            <property name="alignAtEnd" value="true" />
         </properties>
+        <type>error</type>
     </rule>
     <rule ref="Generic.Formatting.SpaceAfterCast">
         <properties>
-            <property name="spacing" value="1"/>
-            <property name="ignoreNewlines" value="false"/>
+            <property name="spacing" value="1" />
+            <property name="ignoreNewlines" value="false" />
         </properties>
     </rule>
     <rule ref="Generic.Formatting.SpaceAfterNot">
-        <exclude name="Generic.Formatting.SpaceAfterNot.Incorrect"/>
+        <exclude name="Generic.Formatting.SpaceAfterNot.Incorrect" />
         <properties>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
-            <property name="spacing" value="1"/>
-            <property name="ignoreNewlines" value="false"/>
+            <property name="spacing" value="1" />
+            <property name="ignoreNewlines" value="false" />
         </properties>
     </rule>
 
     <!-- PEAR -->
     <rule ref="PEAR.Formatting.MultiLineAssignment">
         <properties>
-            <property name="indent" value="4"/>
+            <property name="indent" value="4" />
         </properties>
     </rule>
 
@@ -235,49 +214,41 @@
     -->
 
     <!-- PSR12  -->
-    <rule ref="PSR12.Functions.NullableTypeDeclaration"/>
-    <rule ref="PSR12.Functions.ReturnTypeDeclaration"/>
+    <rule ref="PSR12.Functions.NullableTypeDeclaration" />
+    <rule ref="PSR12.Functions.ReturnTypeDeclaration" />
 
     <!-- Generic -->
-    <rule ref="Generic.Functions.FunctionCallArgumentSpacing"/>
+    <rule ref="Generic.Functions.FunctionCallArgumentSpacing" />
 
     <!-- PEAR -->
-    <rule ref="PEAR.Functions.ValidDefaultValue"/>
+    <rule ref="PEAR.Functions.ValidDefaultValue" />
     <rule ref="PEAR.Functions.FunctionCallSignature">
-        <exclude name="PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket"/>
-        <exclude name="PEAR.Functions.FunctionCallSignature.CloseBracketLine"/>
-        <exclude name="PEAR.Functions.FunctionCallSignature.Indent"/>
+        <exclude name="PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket" />
+        <exclude name="PEAR.Functions.FunctionCallSignature.CloseBracketLine" />
+        <exclude name="PEAR.Functions.FunctionCallSignature.Indent" />
         <properties>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
-            <property name="indent" value="4"/>
-            <property name="allowMultipleArguments" value="true"/>
-            <property name="requiredSpacesAfterOpen" value="0"/>
-            <property name="requiredSpacesBeforeClose" value="0"/>
+            <property name="indent" value="4" />
+            <property name="allowMultipleArguments" value="true" />
+            <property name="requiredSpacesAfterOpen" value="0" />
+            <property name="requiredSpacesBeforeClose" value="0" />
         </properties>
     </rule>
 
     <!-- Squiz -->
-     <rule ref="Squiz.Functions.FunctionDeclarationArgumentSpacing">
+    <rule ref="Squiz.Functions.FunctionDeclarationArgumentSpacing">
         <properties>
-            <property name="equalsSpacing" value="1"/>
-            <property name="requiredSpacesAfterOpen" value="0"/>
-            <property name="requiredSpacesBeforeClose" value="0"/>
+            <property name="equalsSpacing" value="1" />
+            <property name="requiredSpacesAfterOpen" value="0" />
+            <property name="requiredSpacesBeforeClose" value="0" />
         </properties>
     </rule>
-    <rule ref="Squiz.Functions.FunctionDeclaration"/>
-    <rule ref="Squiz.Functions.FunctionDuplicateArgument"/>
-    <rule ref="Squiz.Functions.GlobalFunction"/>
-    <rule ref="Squiz.Functions.LowercaseFunctionKeywords"/>
+    <rule ref="Squiz.Functions.FunctionDeclaration" />
+    <rule ref="Squiz.Functions.FunctionDuplicateArgument" />
+    <rule ref="Squiz.Functions.GlobalFunction" />
+    <rule ref="Squiz.Functions.LowercaseFunctionKeywords" />
     <rule ref="Squiz.Functions.MultiLineFunctionDeclaration">
-        <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.NewlineBeforeOpenBrace"/>
-        <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
-        <properties>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
-        </properties>
+        <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.NewlineBeforeOpenBrace" />
+        <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine" />
     </rule>
 
     <!--
@@ -287,7 +258,7 @@
     -->
 
     <!-- PSR12 -->
-    <rule ref="PSR12.Keywords.ShortFormTypeKeywords"/>
+    <rule ref="PSR12.Keywords.ShortFormTypeKeywords" />
 
     <!--
         ***********************************************************************
@@ -296,10 +267,10 @@
     -->
 
     <!-- PSR12 -->
-    <rule ref="PSR12.Operators.OperatorSpacing"/>
+    <rule ref="PSR12.Operators.OperatorSpacing" />
 
     <!-- Squiz -->
-    <rule ref="Squiz.Operators.ValidLogicalOperators"/>
+    <rule ref="Squiz.Operators.ValidLogicalOperators" />
 
     <!--
         ***********************************************************************
@@ -308,8 +279,8 @@
     -->
 
     <!-- PSR2 -->
-    <rule ref="PSR2.Methods.FunctionClosingBrace"/>
-    <rule ref="PSR2.Methods.MethodDeclaration"/>
+    <rule ref="PSR2.Methods.FunctionClosingBrace" />
+    <rule ref="PSR2.Methods.MethodDeclaration" />
     <rule ref="PSR2.Methods.MethodDeclaration.Underscore">
         <type>error</type>
     </rule>
@@ -323,8 +294,8 @@
     <!-- Generic -->
     <rule ref="Generic.Metrics.NestingLevel">
         <properties>
-            <property name="nestingLevel" value="5"/>
-            <property name="absoluteNestingLevel" value="10"/>
+            <property name="nestingLevel" value="5" />
+            <property name="absoluteNestingLevel" value="10" />
         </properties>
     </rule>
 
@@ -335,15 +306,15 @@
     -->
 
     <!-- PSR2 -->
-    <rule ref="PSR2.Namespaces.NamespaceDeclaration"/>
+    <rule ref="PSR2.Namespaces.NamespaceDeclaration" />
     <rule ref="PSR2.Namespaces.UseDeclaration">
-        <exclude name="PSR2.Namespaces.UseDeclaration.MultipleDeclarations"/>
+        <exclude name="PSR2.Namespaces.UseDeclaration.MultipleDeclarations" />
     </rule>
 
     <!-- PSR12 -->
     <rule ref="PSR12.Namespaces.CompoundNamespaceDepth">
         <properties>
-            <property name="maxDepth" value="2"/>
+            <property name="maxDepth" value="2" />
         </properties>
     </rule>
 
@@ -357,19 +328,19 @@
     <!-- Generic -->
     <rule ref="Generic.NamingConventions.CamelCapsFunctionName">
         <properties>
-            <property name="strict" value="true"/>
+            <property name="strict" value="true" />
         </properties>
     </rule>
-    <rule ref="Generic.NamingConventions.ConstructorName"/>
-    <rule ref="Generic.NamingConventions.UpperCaseConstantName"/>
+    <rule ref="Generic.NamingConventions.ConstructorName" />
+    <rule ref="Generic.NamingConventions.UpperCaseConstantName" />
 
     <!-- Squiz -->
     <rule ref="Squiz.NamingConventions.ValidFunctionName">
-        <exclude name="Squiz.NamingConventions.ValidFunctionName.PrivateNoUnderscore"/>
+        <exclude name="Squiz.NamingConventions.ValidFunctionName.PrivateNoUnderscore" />
     </rule>
     <rule ref="Squiz.NamingConventions.ValidVariableName">
-        <exclude name="Squiz.NamingConventions.ValidVariableName.PrivateNoUnderscore"/>
-        <exclude name="Squiz.NamingConventions.ValidVariableName.MemberNotCamelCaps"/>
+        <exclude name="Squiz.NamingConventions.ValidVariableName.PrivateNoUnderscore" />
+        <exclude name="Squiz.NamingConventions.ValidVariableName.MemberNotCamelCaps" />
     </rule>
 
     <!--
@@ -380,7 +351,7 @@
 
     <!-- Squiz -->
     <rule ref="Squiz.Objects.ObjectInstantiation">
-        <exclude name="Squiz.Objects.ObjectInstantiation.NotAssigned"/>
+        <exclude name="Squiz.Objects.ObjectInstantiation.NotAssigned" />
     </rule>
 
     <!-- -->
@@ -391,42 +362,36 @@
     -->
 
     <!-- Generic -->
-    <rule ref="Generic.PHP.BacktickOperator"/>
-    <rule ref="Generic.PHP.DeprecatedFunctions"/>
-    <rule ref="Generic.PHP.DisallowShortOpenTag"/>
-    <rule ref="Generic.PHP.DiscourageGoto"/>
+    <rule ref="Generic.PHP.BacktickOperator" />
+    <rule ref="Generic.PHP.DeprecatedFunctions" />
+    <rule ref="Generic.PHP.DisallowShortOpenTag" />
+    <rule ref="Generic.PHP.DiscourageGoto" />
     <rule ref="Generic.PHP.ForbiddenFunctions">
         <properties>
             <property name="forbiddenFunctions" type="array">
-                <element key="sizeof" value="count"/>
-                <element key="delete" value="unset"/>
-                <element key="dd" value="null"/>
-                <element key="dump" value="null"/>
-                <element key="var_dump" value="null"/>
-                <element key="ray" value="null"/>
+                <element key="sizeof" value="count" />
+                <element key="delete" value="unset" />
+                <element key="dd" value="null" />
+                <element key="dump" value="null" />
+                <element key="var_dump" value="null" />
+                <element key="ray" value="null" />
             </property>
-            <property name="error" value="true"/>
+            <property name="error" value="true" />
         </properties>
     </rule>
-    <rule ref="Generic.PHP.LowerCaseConstant">
-        <properties>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
-        </properties>
-    </rule>
-    <rule ref="Generic.PHP.LowerCaseKeyword"/>
-    <rule ref="Generic.PHP.LowerCaseType"/>
+    <rule ref="Generic.PHP.LowerCaseConstant" />
+    <rule ref="Generic.PHP.LowerCaseKeyword" />
+    <rule ref="Generic.PHP.LowerCaseType" />
     <rule ref="Generic.PHP.NoSilencedErrors">
         <properties>
-            <property name="error" value="true"/>
+            <property name="error" value="true" />
         </properties>
     </rule>
 
     <!-- Squiz -->
-    <rule ref="Squiz.PHP.InnerFunctions"/>
-    <rule ref="Squiz.PHP.NonExecutableCode"/>
-    <rule ref="Squiz.PHP.LowercasePHPFunctions"/>
+    <rule ref="Squiz.PHP.InnerFunctions" />
+    <rule ref="Squiz.PHP.NonExecutableCode" />
+    <rule ref="Squiz.PHP.LowercasePHPFunctions" />
 
     <!--
         ***********************************************************************
@@ -437,17 +402,14 @@
     <!-- Generic -->
     <rule ref="Generic.Strings.UnnecessaryStringConcat">
         <properties>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
             <property name="allowMultiline" value="true" />
-            <property name="error" value="false" />
         </properties>
+        <type>error</type>
     </rule>
 
     <!-- Squiz -->
     <rule ref="Squiz.Strings.DoubleQuoteUsage">
-        <exclude name="Squiz.Strings.DoubleQuoteUsage.ContainsVar"/>
+        <exclude name="Squiz.Strings.DoubleQuoteUsage.ContainsVar" />
     </rule>
 
     <!--
@@ -457,9 +419,9 @@
     -->
 
     <!-- Squiz -->
-    <rule ref="Squiz.Scope.MemberVarScope"/>
-    <rule ref="Squiz.Scope.MethodScope"/>
-    <rule ref="Squiz.Scope.StaticThisUsage"/>
+    <rule ref="Squiz.Scope.MemberVarScope" />
+    <rule ref="Squiz.Scope.MethodScope" />
+    <rule ref="Squiz.Scope.StaticThisUsage" />
 
     <!--
         ***********************************************************************
@@ -469,7 +431,7 @@
 
     <!-- PSR12 -->
     <rule ref="PSR12.Traits.UseDeclaration">
-        <exclude name="PSR12.Traits.UseDeclaration.MultipleImport"/>
+        <exclude name="PSR12.Traits.UseDeclaration.MultipleImport" />
     </rule>
 
     <!--
@@ -479,13 +441,7 @@
     -->
 
     <!-- Generic -->
-    <rule ref="Generic.VersionControl.GitMergeConflict">
-        <properties>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
-        </properties>
-    </rule>
+    <rule ref="Generic.VersionControl.GitMergeConflict" />
 
 
     <!--
@@ -497,86 +453,55 @@
     <!-- Generic -->
     <rule ref="Generic.WhiteSpace.ArbitraryParenthesesSpacing">
         <properties>
-            <property name="spacing" value="0"/>
-            <property name="ignoreNewlines" value="false"/>
+            <property name="spacing" value="0" />
+            <property name="ignoreNewlines" value="false" />
         </properties>
     </rule>
-    <rule ref="Generic.WhiteSpace.DisallowTabIndent">
-        <properties>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
-        </properties>
-    </rule>
-    <rule ref="Generic.WhiteSpace.IncrementDecrementSpacing">
-        <properties>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
-        </properties>
-    </rule>
-    <rule ref="Generic.WhiteSpace.LanguageConstructSpacing"/>
+    <rule ref="Generic.WhiteSpace.DisallowTabIndent" />
+    <rule ref="Generic.WhiteSpace.IncrementDecrementSpacing" />
+    <rule ref="Generic.WhiteSpace.LanguageConstructSpacing" />
     <rule ref="Generic.WhiteSpace.ScopeIndent">
         <properties>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
-            <property name="indent" value="4"/>
-            <property name="exact" value="false"/>
+            <property name="indent" value="4" />
+            <property name="exact" value="false" />
             <property name="ignoreIndentationTokens" type="array">
-                <element value="T_COMMENT"/>
-                <element value="T_DOC_COMMENT_OPEN_TAG"/>
+                <element value="T_COMMENT" />
+                <element value="T_DOC_COMMENT_OPEN_TAG" />
             </property>
         </properties>
     </rule>
     <rule ref="Generic.WhiteSpace.SpreadOperatorSpacingAfter">
         <properties>
-            <property name="spacing" value="0"/>
-            <property name="ignoreNewlines" value="false"/>
+            <property name="spacing" value="0" />
+            <property name="ignoreNewlines" value="false" />
         </properties>
     </rule>
 
     <!-- PEAR -->
     <rule ref="PEAR.WhiteSpace.ObjectOperatorIndent">
-        <exclude name="PEAR.WhiteSpace.ObjectOperatorIndent.Incorrect"/>
+        <exclude name="PEAR.WhiteSpace.ObjectOperatorIndent.Incorrect" />
         <properties>
-            <property name="indent" value="4"/>
-            <property name="multilevel" value="false"/>
+            <property name="indent" value="4" />
+            <property name="multilevel" value="false" />
         </properties>
     </rule>
 
     <!-- Squiz -->
-    <rule ref="Squiz.WhiteSpace.CastSpacing"/>
+    <rule ref="Squiz.WhiteSpace.CastSpacing" />
     <rule ref="Squiz.WhiteSpace.ControlStructureSpacing">
-        <exclude name="Squiz.WhiteSpace.ControlStructureSpacing.SpacingAfterOpenBrace"/>
-        <properties>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
-        </properties>
+        <exclude name="Squiz.WhiteSpace.ControlStructureSpacing.SpacingAfterOpenBrace" />
     </rule>
     <rule ref="Squiz.WhiteSpace.FunctionClosingBraceSpace">
-        <exclude name="Squiz.WhiteSpace.FunctionClosingBraceSpace.SpacingBeforeClose"/>
-        <properties>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
-        </properties>
+        <exclude name="Squiz.WhiteSpace.FunctionClosingBraceSpace.SpacingBeforeClose" />
     </rule>
-    <rule ref="Squiz.WhiteSpace.FunctionSpacing" >
+    <rule ref="Squiz.WhiteSpace.FunctionSpacing">
         <properties>
             <property name="spacing" value="1" />
             <property name="spacingBeforeFirst" value="0" />
             <property name="spacingAfterLast" value="0" />
         </properties>
     </rule>
-    <rule ref="Squiz.WhiteSpace.LogicalOperatorSpacing">
-        <properties>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
-        </properties>
-    </rule>
+    <rule ref="Squiz.WhiteSpace.LogicalOperatorSpacing" />
     <rule ref="Squiz.WhiteSpace.MemberVarSpacing">
         <properties>
             <property name="spacing" value="1" />
@@ -585,29 +510,17 @@
     </rule>
     <rule ref="Squiz.WhiteSpace.OperatorSpacing">
         <properties>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
             <property name="ignoreNewlines" value="true" />
             <property name="ignoreSpacingBeforeAssignments" value="true" />
         </properties>
     </rule>
     <rule ref="Squiz.WhiteSpace.ScopeClosingBrace">
-        <exclude name="Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore"/>
+        <exclude name="Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore" />
     </rule>
-    <rule ref="Squiz.WhiteSpace.ScopeKeywordSpacing"/>
-    <rule ref="Squiz.WhiteSpace.SemicolonSpacing">
-        <properties>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
-        </properties>
-    </rule>
+    <rule ref="Squiz.WhiteSpace.ScopeKeywordSpacing" />
+    <rule ref="Squiz.WhiteSpace.SemicolonSpacing" />
     <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace">
         <properties>
-            <property name="supportedTokenizers" type="array">
-                <element value="PHP"/>
-            </property>
             <property name="ignoreBlankLines" value="false" />
         </properties>
     </rule>
