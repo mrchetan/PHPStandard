@@ -23,9 +23,9 @@ You follow the steps respective to your favourite IDE to configure PHP CodeSniff
 Some sniffs in this repository have been derived from original PHP_CodeSniffer project. Credits for those go to the respective developers.
 
 ## VS Code SETUP
-Install the extension name **PHP Sniffer** by **wongjn**
+Install the extension name **[Sniffer of PHP](https://marketplace.visualstudio.com/items?itemName=MrChetan.sniffer-of-php)** by **MrChetan**
 
-![N|Solid](./img/php-snif.png)
+[![Sniffer of PHP](./img/sniffer-of-php.png)](https://marketplace.visualstudio.com/items?itemName=MrChetan.sniffer-of-php)
 After Activation add the below file to settings.json file
 
 For Mac
