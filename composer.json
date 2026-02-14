@@ -1,7 +1,23 @@
 {
     "name": "mrchetan/php_standard",
     "description": "PHP coding standard to be followed in Laravel projects",
-    "keywords": ["php", "laravel", "coding-standard", "phpcs", "php-code-sniffer", "phpcs-standard", "phpcs-ruleset", "phpcs-standard-laravel", "devanox", "mrchetan"],
+    "keywords": [
+        "php",
+        "laravel",
+        "coding",
+        "coding-standard",
+        "phpcs",
+        "standards",
+        "ruleset",
+        "rules",
+        "php-code-sniffer",
+        "phpcodesniffer-standard",
+        "phpcs-standard",
+        "phpcs-ruleset",
+        "phpcs-standard-laravel",
+        "devanox",
+        "mrchetan"
+    ],
     "type": "phpcodesniffer-standard",
     "require": {
         "squizlabs/php_codesniffer": "^4.0"
